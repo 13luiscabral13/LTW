@@ -1,0 +1,17 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body footer { /* FOOTER */
+    border: 2px solid gray;
+    margin:0;
+    padding:0;
+}
+
+body footer p { /* RESTAURANT MANAGER */
+    display: inline;
+}
+
+body footer p:nth-child(2){ /* DEVELOPED BY */
+    margin-left: 74%;
+}

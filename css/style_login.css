@@ -1,0 +1,179 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+}
+
+body form div {
+    text-align: left;
+    font-weight: none;
+    margin-left: 0px;
+    border: none;
+    background-color: transparent;
+}
+
+body form div a {
+    font-weight: normal;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}   
+
+/* Set a style for all buttons */
+button {
+    background-color: rgba(98,3,161,255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.6;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 32%;
+    border-radius: 40%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    float: right;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 4px;
+}
+
+span.psw:hover {
+    float: right;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 4px;
+}
+
+span.psw:hover a{
+    text-decoration: underline;
+    text-decoration-color: black;
+    margin-top: 4px;
+}
+span.psw a{
+    color: black;
+    margin-top: 4px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+}
+
+body form div label {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+
+body form div label input {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 0;
+}
+
+body form div span a {
+    text-decoration : none;
+}
+
+
+body form div label p{
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+
+body form div label a{ /* REGISTER */ 
+    text-decoration: none;
+    color: white;
+    border : 2px solid green;
+    background-color: green;
+    margin-left : 710px;
+}
+
+body form div label a:hover{
+    opacity: 0.5;
+}
+
+body form div label span a{ /* FORGOT PASSWORD */
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+
+body div {
+    text-align: center;
+    border : 2px solid #f1f1f1;
+    background-color: #f1f1f1;
+    margin-top : 40px;
+}
+
+body  div p {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body div a {
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', sans-serif;
+color: dodgerblue;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: underline;
+}
+
+body  div a:hover {
+    opacity: 0.5;
+}
+#backToIndex {
+    background-image: "../images/logo.png";
+    text-align: left;
+    margin:0;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#backToIndex:hover{
+    opacity: 0.7;
+}

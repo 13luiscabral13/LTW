@@ -1,0 +1,113 @@
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-image: url(../images/background1.jpg);
+    background-position: 30px;
+    padding: auto;
+    padding-bottom: 30px;
+}
+
+body header { /* PROFILE */
+
+    text-align: center;
+
+}
+body header h1 {
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body header h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+body header p {
+    margin : 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#profilepic { /* PROFILE PIC */
+    margin-left: 0px;
+    size: small;
+    width : 200px;
+    height:200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-image: url("images/background1.jpg");
+}
+
+#bio {
+    text-align: center;
+    margin-top : 0px;
+    padding-top: 0px;
+}
+
+
+
+body main div {
+    width:100%;
+    text-align:center;
+    margin-top: 20px;
+}
+
+body main div div {
+    width: 100px;
+    display: inline-block;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+body main div div a {
+    text-decoration: none;
+    color: black;
+}
+
+body main div div a:hover {
+    opacity: 0.4;
+}
+
+body main div div span {
+    margin-top: 50px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-container button {
+    font-size: 20px;
+    background-color: #99a5b3;
+    border: 3px solid white;
+    width: 500px;
+}
+
+.button-container button:hover{
+    opacity: 0.7;
+}
+
+#backToIndex {
+    background-image: "../images/logo.png";
+    text-align: left;
+    margin:0;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#backToIndex:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,77 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+
+}
+
+#FavoriteHeader {
+    text-align: center;
+}
+
+#restaurantName {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#YourFavoriteRestaurants {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+#restaurantName a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+#restaurantName a:hover{
+    opacity: 0.7;
+}
+
+#restaurantCity {
+    text-align: center;
+    margin-top: -15px;
+}
+#restaurantCategoria {
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+
+#restaurantAvg {
+    text-align: center;
+    margin-top: -15px;
+}
+
+#header {
+    text-align: center;
+}
+
+#restaurantFavorite {
+    text-align: center;
+    margin-top: -15px;
+}
+
+#restaurantNameDish {
+    margin-top: -5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#restaurantCityDish {
+    margin-top: -15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#restaurantNameDish a {
+color: black;
+text-decoration: none;
+}
+
+
+#restaurantNameDish a:hover {
+    opacity: 0.7;
+}

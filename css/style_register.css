@@ -1,0 +1,131 @@
+* {box-sizing: border-box;}
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+#description{
+    height: 200px;
+    line-height: top;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: rgba(98,3,161,255);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+  
+.registerbtn:hover {
+    opacity:1;
+}
+
+  /* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}  
+
+button:hover {
+    opacity: 0.6;
+}
+
+button {
+    background-color: rgba(98,3,161,255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+body form div h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+body form div p {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+body form div label {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+
+body form div a:hover {
+    opacity: 0.5;
+}
+
+#backToIndex {
+    background-image: "../images/logo.png";
+    text-align: left;
+    margin:0;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+#backToIndex:hover{
+    opacity: 0.7;
+}
+
+h6 {
+    margin-top: 3px;
+    margin-left: 4px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: red;
+    text-align: end;
+}
+
+#dishEdit a {
+    color:black;
+}
